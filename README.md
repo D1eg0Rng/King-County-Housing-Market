@@ -29,8 +29,8 @@ The initial data contained 30156 houses with the following information
 **Column Names and descriptions for Kings County Data Set:**
 
 - id - a unique identifier for each house.<br />
-- date - the date the house was sold. **(Target)**<br />
-- price - the price of the house.<br />
+- date - the date the house was sold.<br />
+- price - the price of the house.   **(TARGET)**<br />
 - bedrooms - the number of bedrooms in the house.<br />
 - bathrooms - the number of bathrooms in the house.<br />
 - sqft_living - the total square footage of the living space in the house.<br />
@@ -115,12 +115,13 @@ The data contained 20450 crimes with the following information
 - Model prediction off by $222,155.
 
 **Coefficients:**
-- Sqft_living = 121,024
-- Grade = 87,520
-- Min Dist to Gated Building = 121,657
-- Total_sqft = -11,463
-- Sqft_lot = -22,058
-- Sqft_basement = -1,496
+- Sqft_living = 88.71
+- Grade = 83,944.19
+- Min Dist to Gated Building = 2,187,461
+- Total_sqft = 43.91
+- Sqft_lot = -43.64
+- Sqft_basement = -40.49
+
 
 
 
