@@ -28,64 +28,64 @@ The initial data contained 30156 houses with the following information
 
 **Column Names and descriptions for Kings County Data Set:**
 
-id - a unique identifier for each house.
-date - the date the house was sold.
-price - the price of the house.
-bedrooms - the number of bedrooms in the house.
-bathrooms - the number of bathrooms in the house.
-sqft_living - the total square footage of the living space in the house.
-sqft_lot - the total square footage of the lot the house sits on.
-floors - the number of floors in the house.
-waterfront - a binary variable indicating whether the house has a waterfront view.
-greenbelt - a binary variable indicating whether the house is located near a greenbelt.
-nuisance - a binary variable indicating whether the house is located near a nuisance, such as a busy road or airport.
-view - a rating of the view from the house, on a scale of 0 to 4.
-condition - a rating of the overall condition of the house, on a scale of 1 to 5.
-grade - a rating of the construction quality and design of the house, on a scale of 1 to 13.
-heat_source - the primary source of heat for the house.
-sewer_system - the type of sewer system used by the house.
-sqft_above - the square footage of the living space above ground level.
-sqft_basement - the square footage of the basement.
-sqft_garage - the square footage of the garage.
-sqft_patio - the square footage of the patio or deck.
-yr_built - the year the house was built.
-yr_renovated - the year the house was last renovated, or 0 if the house has never been renovated.
-address - the street address of the house.
-lat - the latitude of the house's location.
-long - the longitude of the house's location.
+- id - a unique identifier for each house.<br />
+- date - the date the house was sold. **(Target)**<br />
+- price - the price of the house.<br />
+- bedrooms - the number of bedrooms in the house.<br />
+- bathrooms - the number of bathrooms in the house.<br />
+- sqft_living - the total square footage of the living space in the house.<br />
+- sqft_lot - the total square footage of the lot the house sits on.<br />
+- floors - the number of floors in the house.<br />
+- waterfront - a binary variable indicating whether the house has a waterfront view.<br />
+- greenbelt - a binary variable indicating whether the house is located near a greenbelt.<br />
+- nuisance - a binary variable indicating whether the house is located near a nuisance, such as a busy road or airport.<br />
+- view - a rating of the view from the house, on a scale of 0 to 4.<br />
+- condition - a rating of the overall condition of the house, on a scale of 1 to 5.<br />
+- grade - a rating of the construction quality and design of the house, on a scale of 1 to 13.<br />
+- heat_source - the primary source of heat for the house.<br />
+- sewer_system - the type of sewer system used by the house.<br />
+- sqft_above - the square footage of the living space above ground level.<br />
+- sqft_basement - the square footage of the basement.<br />
+- sqft_garage - the square footage of the garage.<br />
+- sqft_patio - the square footage of the patio or deck.<br />
+- yr_built - the year the house was built.<br />
+- yr_renovated - the year the house was last renovated, or 0 if the house has never been renovated.<br />
+- address - the street address of the house.<br />
+- lat - the latitude of the house's location.<br />
+- long - the longitude of the house's location.<br />
 
 
 **Kings Country GIS Data** (https://gis-kingcounty.opendata.arcgis.com) **(3600 rows**
 
 Contained Latitude and Longitude of:
 
-Airports
-Cemeteries
-Commercial Farms
-Places of Culture
-Places of Education
-Fire / Police Station
-Gated Residential Areas
-Public Gathering Spaces
-Utilities
+- Airports
+- Cemeteries
+- Commercial Farms
+- Places of Culture
+- Places of Education
+- Fire / Police Station
+- Gated Residential Areas
+- Public Gathering Spaces
+- Utilities
 
 **King County Open Data** (https://data.kingcounty.gov/)
 
 The data contained 20450 crimes with the following information
 
-case_number - a unique identifier for each incident report.
-incident_datetime - the date and time the incident occurred.
-incident_type - the type of incident that occurred, such as theft, assault, or vandalism.
-FCR - the final classification of the incident, determined after investigation and analysis.
-address_1 - the street address of the incident location.
-city - the city where the incident occurred.
-state - the state where the incident occurred.
-zip - the postal code of the incident location.
-created_at - the date and time the incident report was created.
-updated_at - the date and time the incident report was last updated.
-hour_of_day - the hour of the day the incident occurred.
-day_of_week - the day of the week the incident occurred.
-Incident Block Location - the block location where the incident occurred, typically with the street number and block range of the address.
+- case_number - a unique identifier for each incident report.<br />
+- incident_datetime - the date and time the incident occurred.<br />
+- incident_type - the type of incident that occurred, such as theft, assault, or vandalism.<br />
+- FCR - the final classification of the incident, determined after investigation and analysis.<br />
+- address_1 - the street address of the incident location.<br />
+- city - the city where the incident occurred.<br />
+- state - the state where the incident occurred.<br />
+- zip - the postal code of the incident location.<br />
+- created_at - the date and time the incident report was created.<br />
+- updated_at - the date and time the incident report was last updated.<br />
+- hour_of_day - the hour of the day the incident occurred.<br />
+- day_of_week - the day of the week the incident occurred.<br />
+- Incident Block Location - the block location where the incident occurred, typically with the street number and block range of the address.<br />
 
 ## First Model
 
