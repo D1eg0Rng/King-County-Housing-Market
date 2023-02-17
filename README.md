@@ -92,7 +92,7 @@ The data contained 20450 crimes with the following information
 ![image](https://user-images.githubusercontent.com/122308669/219785757-b9663707-4313-44b3-8ea0-25b3b74d35af.png)
 
 - 40% of variability in price can be explained by the model’s variables.
-- Model prediction off by $679,846.
+- Model prediction off by $698,310.
 
 **First model cleaning:**
 - Dropping null values.
